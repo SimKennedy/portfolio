@@ -1,0 +1,1 @@
+Favicon generated using https://redketchup.io/favicon-generator
