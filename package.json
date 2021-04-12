@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://simkennedy.github.io/portfolio",
+  "homepage": "http://simkennedy.github.io/simkennedy.dev",
   "dependencies": {
     "@carbon/icons-react": "^10.29.0",
     "@carbon/themes": "^10.31.0",
