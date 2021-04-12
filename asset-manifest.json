@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/simkennedy.dev/static/css/main.0b06f424.chunk.css",
-    "main.js": "/simkennedy.dev/static/js/main.8965398a.chunk.js",
-    "main.js.map": "/simkennedy.dev/static/js/main.8965398a.chunk.js.map",
+    "main.js": "/simkennedy.dev/static/js/main.dcf47582.chunk.js",
+    "main.js.map": "/simkennedy.dev/static/js/main.dcf47582.chunk.js.map",
     "runtime-main.js": "/simkennedy.dev/static/js/runtime-main.e8034098.js",
     "runtime-main.js.map": "/simkennedy.dev/static/js/runtime-main.e8034098.js.map",
     "static/js/2.aad96422.chunk.js": "/simkennedy.dev/static/js/2.aad96422.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e8034098.js",
     "static/js/2.aad96422.chunk.js",
     "static/css/main.0b06f424.chunk.css",
-    "static/js/main.8965398a.chunk.js"
+    "static/js/main.dcf47582.chunk.js"
   ]
 }
