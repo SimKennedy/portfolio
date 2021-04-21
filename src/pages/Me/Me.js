@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph, Pill } from '../../styles';
-import { ProfileLink } from './styles';
+import {SectionTitle, Paragraph, Pill} from '../../styles';
+import {ProfileLink} from './styles';
 
-const Me = ({ user }) => {
+const Me = ({user}) => {
   return (
     <Layout user={user}>
       <div>
@@ -21,14 +21,17 @@ const Me = ({ user }) => {
       <div>
         <SectionTitle>Profiles</SectionTitle>
         <ul>
-          {user.basics.profiles.map((profile, i) => (
-            <ProfileLink key={profile.network}>
-              {i !== 0 && ' | '}
-              <a href={profile.url} target="_blank" rel="noreferrer noopener">
-                {profile.network}
-              </a>
-            </ProfileLink>
-          ))}
+          {user.basics.profiles.map((profile, i, arr) => {
+            if (profile.network !== "gitconnected") {
+              return (
+                <ProfileLink key={profile.network}>
+                  <a href={profile.url} target="_blank" rel="noreferrer noopener">
+                    {profile.network}
+                  </a>
+                  {arr.length - 1 !== i && ' | '}
+                </ProfileLink>
+              )}
+          })}
         </ul>
       </div>
     </Layout>
